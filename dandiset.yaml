@@ -45,8 +45,8 @@ assetsSummary:
   - ElectrodeGroup
   - Units
 citation: Inagaki, Hidehiko; Chen, Susu; Svoboda, Karel (2022) A midbrain-thalamus-cortex
-  circuit reorganizes cortical dynamics to initiate movement (Version draft) [Data
-  set]. DANDI archive. https://dandiarchive.org/dandiset/000221/draft
+  circuit reorganizes cortical dynamics to initiate movement (Version 0.220303.1653)
+  [Data set]. DANDI archive. https://doi.org/10.48324/dandi.000221/0.220303.1653
 contributor:
 - affiliation: []
   email: hidehiko.inagaki@mpfi.org
@@ -66,12 +66,14 @@ contributor:
   roleName: []
   schemaKey: Person
 dateCreated: '2022-02-01T22:09:59.213627+00:00'
+datePublished: '2022-03-03T16:53:36.783863+00:00'
 description: 'Data from "A midbrain-thalamus-cortex circuit reorganizes cortical dynamics
   to initiate movement" Inagaki & Chen et al
 
   Example codes to plot data is at https://github.com/hidehikoinagaki/InagakiAndChenEtAl2022'
+doi: 10.48324/dandi.000221/0.220303.1653
 ethicsApproval: []
-id: DANDI:000221/draft
+id: DANDI:000221/0.220303.1653
 identifier: DANDI:000221
 keywords:
 - Midbrain
@@ -81,15 +83,27 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000221/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000221/0.220303.1653/assets.yaml
 name: A midbrain-thalamus-cortex circuit reorganizes cortical dynamics to initiate
   movement
 protocol: []
+publishedBy:
+  endDate: '2022-03-03T16:53:36.783863+00:00'
+  id: urn:uuid:e03b1799-addf-4843-a525-00c096e768e9
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2022-03-03T16:53:36.783863+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:073f27f9-fae9-4a86-b982-0d4020b4e581
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource: []
 repository: https://dandiarchive.org/
 schemaKey: Dandiset
 schemaVersion: 0.6.2
 studyTarget: []
-url: https://dandiarchive.org/dandiset/000221/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000221/0.220303.1653
+version: 0.220303.1653
 wasGeneratedBy: []
