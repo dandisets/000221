@@ -2,16 +2,51 @@
 # It can be edited online at https://dandiarchive.org/dandiset/000221
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.2/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
+acknowledgement: 'We thank Svoboda and Inagaki lab members and B. Sauerbrei for comments
+  Q13 on the manuscript; M.N. Economo and S. Romani for discussions; M. Inagaki for
+  animal training; T. Harris, B. Barbarits, J. Colonell, B. Karsh, W. L. Sun, J.J.
+  James, A. Liddell, and M. Pachitariu for help with silicon probe recordings and
+  spike sorting; T. Wang for help with HCR; L. Narayan for help with high-speed videography;
+  K. Ritola and H.A. Yi for viruses; and M. Mahn and O. Yizhar for GtACR plasmids.
+  This work was funded by ZIA MH002487-32 (C.R.G.), NOW- Vidi and ERC-Stg grants (Z.G.),
+  Australian National Health and Medical Research Council and the Australian Research
+  Council: CE140100007 (P.S.), Searle Scholars Program (N.L. and H.K.I.), Klingenstein-Simons
+  Fellowship (H.K.I.), NIH NS112312 (N.L.), Simons Collaboration on the Global Brain
+  (K.S. and N.L.), Wellcome Trust (S.C.), Helen Hay Whitney Foundation (H.K.I.), Max
+  Planck Florida Institute (H.K.I.), and Howard Hughes Medical Institute, including
+  the Janelia Visitor Program (S.C., N.L., and K.S.).'
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach:
+  - name: electrophysiological approach
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: spike sorting technique
+    schemaKey: MeasurementTechniqueType
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 4422550232
+  numberOfFiles: 263
+  numberOfSubjects: 44
   schemaKey: AssetsSummary
-citation: Inagaki, Hidehiko (2022) A midbrain-thalamus-cortex circuit reorganizes
-  cortical dynamics to initiate movement (Version draft) [Data set]. DANDI archive.
-  https://dandiarchive.org/dandiset/000221/draft
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+    name: Mus musculus - House mouse
+    schemaKey: SpeciesType
+  variableMeasured:
+  - SpikeEventSeries
+  - ElectrodeGroup
+  - Units
+citation: Inagaki, Hidehiko; Chen, Susu; Svoboda, Karel (2022) A midbrain-thalamus-cortex
+  circuit reorganizes cortical dynamics to initiate movement (Version draft) [Data
+  set]. DANDI archive. https://dandiarchive.org/dandiset/000221/draft
 contributor:
 - affiliation: []
   email: hidehiko.inagaki@mpfi.org
@@ -20,17 +55,41 @@ contributor:
   roleName:
   - dcite:ContactPerson
   schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Chen, Susu
+  roleName: []
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Svoboda, Karel
+  roleName: []
+  schemaKey: Person
 dateCreated: '2022-02-01T22:09:59.213627+00:00'
-description: Data from "A midbrain-thalamus-cortex circuit reorganizes cortical dynamics
+description: 'Data from "A midbrain-thalamus-cortex circuit reorganizes cortical dynamics
   to initiate movement" Inagaki & Chen et al
+
+  Example codes to plot data is at https://github.com/hidehikoinagaki/InagakiAndChenEtAl2022'
+ethicsApproval: []
 id: DANDI:000221/draft
 identifier: DANDI:000221
+keywords:
+- Midbrain
+- ALM
+- motor planning
+- movement initiation
+license:
+- spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000221/versions/draft/assets/
 name: A midbrain-thalamus-cortex circuit reorganizes cortical dynamics to initiate
   movement
+protocol: []
+relatedResource: []
 repository: https://dandiarchive.org/
 schemaKey: Dandiset
 schemaVersion: 0.6.2
+studyTarget: []
 url: https://dandiarchive.org/dandiset/000221/draft
 version: draft
+wasGeneratedBy: []
